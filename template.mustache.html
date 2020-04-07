@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{title}}</title>
-  <link rel="stylesheet" href="style.css">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tags.css">
   </head>
 
   <body>
@@ -16,7 +17,7 @@
         <p class="meta">Published on {{meta.date}}</p>
         {{{content}}}
         <p class="tags">
-        {{#meta.tags}}<span class="tag">{{.}}</span> {{/meta.tags}}
+        {{#meta.tags}}<span class="tag tag-{{.}}">{{.}}</span> {{/meta.tags}}
         </p>
       {{/posts}}
     </div>
