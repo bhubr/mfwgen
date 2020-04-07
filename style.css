@@ -1,0 +1,22 @@
+body, html {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: #333;
+}
+
+.container {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.meta {
+  color: #6c6c6c;
+}
+
+.tag {
+  padding: 2px 5px;
+  background: #ddd;
+  border-radius: 2px;
+}
+

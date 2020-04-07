@@ -4,15 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{title}}</title>
+  <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
-    <h1>{{title}}</h1>
+    <div class="container">
+      <h1>{{title}}</h1>
 
-    {{#posts}}
-      <h2>{{title}}</h2>
-      {{tags}}
-      {{{content}}}
-    {{/posts}}
+      {{#posts}}
+        <h2>{{title}}</h2>
+        <p class="meta">Published on {{meta.date}}</p>
+        {{{content}}}
+        <p class="tags">
+        {{#meta.tags}}<span class="tag">{{.}}</span> {{/meta.tags}}
+        </p>
+      {{/posts}}
+    </div>
   </body>
 </html>
