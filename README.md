@@ -36,15 +36,15 @@ Though I like the idea of a static site, I'd like to add a comment system. I mig
 * [x] Parse a Jekyll-like "front-matter"
 * [ ] Add separator to the front-matter
 * [ ] Read posts from disk
-* [ ] Generate archive and tags links + pagination
-* [ ] Paginate content
+* [ ] Generate archive and tags links
+* [ ] Generate pagination
 * [ ] Add comment system
 * [ ] Add contact form
 * [ ] Customize tags (pick colors from a Material palette)
 * [ ] Generate SEO tags
-* [ ] Generate sitemap.xml
-* [ ] Handle multilingual content
+* [ ] Generate sitemap
+* [ ] Handle multilingual content
 * [ ] Minify HTML and assets
-* [ ] Benchmark with Google PageSpeed Insights
-* [ ] Setup Git push hooks to auto-update the bloody thing
+* [ ] Benchmark with Google PageSpeed Insights
+* [ ] Setup Git push hooks to auto-update the bloody thing
 
