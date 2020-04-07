@@ -12,7 +12,7 @@ So here are the steps...
 
 First install Ruby with your pkg manager or better yet, with [RVM](http://rvm.io/). If you're using Debian/Ubuntu you need to install `ruby` and `ruby2.x-dev` (`x` depending on your OS release). It's **needed** in order to build some Ruby gems' native code.
 
-Then install the gems; FYI `mustache` is the logic-less template engine, RedCarpet is a Markdown-to-HTML renderer, Rouge is a syntax highlighter (not used yet but soon).
+Then install the gems; FYI Mustache is the logic-less template engine, RedCarpet is a Markdown-to-HTML renderer, Rouge is a syntax highlighter (not used yet but soon).
 
     gem install mustache
     gem install redcarpet
@@ -36,7 +36,7 @@ Though I like the idea of a static site, I'd like to add a comment system. I mig
 * [x] Parse a Jekyll-like "front-matter"
 * [ ] Add separator to the front-matter
 * [ ] Read posts from disk
-* [ ] Generate archive/tags links
+* [ ] Generate archive and tags links + pagination
 * [ ] Paginate content
 * [ ] Add comment system
 * [ ] Add contact form
@@ -47,3 +47,4 @@ Though I like the idea of a static site, I'd like to add a comment system. I mig
 * [ ] Minify HTML and assets
 * [ ] Benchmark with Google PageSpeed Insights
 * [ ] Setup Git push hooks to auto-update the bloody thing
+
